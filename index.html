@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Public</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #f1f5f9; font-family: sans-serif; color: #1e293b; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 32px 16px; }
+    h1 { font-size: 1.6rem; font-weight: 700; color: #1e3a8a; margin-bottom: 8px; }
+    p { font-size: 0.95rem; color: #64748b; margin-bottom: 32px; }
+    .cards { display: flex; flex-direction: column; gap: 16px; width: 100%; max-width: 480px; }
+    a.card { background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px 24px; text-decoration: none; color: #1e293b; box-shadow: 0 1px 2px rgba(0,0,0,0.05); display: flex; align-items: center; gap: 16px; transition: box-shadow 0.15s, transform 0.15s; }
+    a.card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); transform: translateY(-1px); }
+    .card-icon { font-size: 2rem; }
+    .card-title { font-size: 1rem; font-weight: 600; }
+    .card-desc { font-size: 0.85rem; color: #64748b; margin-top: 2px; }
+  </style>
+</head>
+<body>
+  <h1>🌐 Public</h1>
+  <p>Öppna sidor</p>
+  <div class="cards">
+    <a class="card" href="packlista.html">
+      <span class="card-icon">🧳</span>
+      <div>
+        <div class="card-title">Packlista</div>
+        <div class="card-desc">Interaktiv packlista för resor</div>
+      </div>
+    </a>
+  </div>
+</body>
+</html>
